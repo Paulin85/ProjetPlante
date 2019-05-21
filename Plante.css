@@ -1,0 +1,68 @@
+html
+{
+	scroll-behavior: smooth;
+}
+
+h1
+{
+	padding: 50px;
+}
+
+*
+{
+	text-align: center;
+}
+
+.card-deck
+{
+	padding: 20px;
+}
+
+h2
+{
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.fleche:hover 
+{ 
+    transform: rotate(360deg);  
+    transition: all 1s;
+}
+
+
+.flechehaut:hover 
+{ 
+    transform: rotate(360deg);  
+    transition: all 1s;
+}
+
+.fleche 
+{
+    width: 50px;
+    height: 50px;
+    margin: 100px; 
+}
+
+table
+{
+	margin-top: 30px;
+}
+
+input
+{
+	margin-bottom: 30px;
+}
+
+form
+{
+	width: 700px;
+}
+
+.formulaire section
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

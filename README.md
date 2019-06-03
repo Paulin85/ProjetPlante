@@ -205,3 +205,16 @@ Installation de PHPMyAdmin:
 > Password root: Mot de passe de MySQL
 </p>
 
+<h2 id="gestion">La Gestion de Projet</h2>
+
+<p>
+  Afin de mener à terme ce projet dans de bonnes circonstances, nous avons dû mettre en place une gestion de projet. Bien que nous ne soyons que deux, cela a été nécessaire.
+  
+  Nous avons alors utilisé différents logiciels pour nous aider dans cette optique.
+  
+  Nous avons en premier lieu, mis en place un Teams, dans lequel nous avons placer les différentes tâches à effectuer. Nous avons alors pu affecter des tâches à un membre et contrôler le travail de chacun.
+  Dans un second temps nous avons mis en place un SharePoint, dans lequel nous avons mis tout nos différents fichiers, afin que nous y ayons accès facilement sans se les transférer.
+  Enfin, nous avons utilisé un Discord, pour pouvoir communiquer rapidement et facilement quand nous nous ne pouvions pas travailler ensemble.
+
+  De plus, nous avons mis en place un Gantt et un planning, pour l’organisation du projet.
+</p>

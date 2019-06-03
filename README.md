@@ -46,7 +46,9 @@
 <p>Le fichier projetplante.sql est la base de données qui possède les données des plantes, des capteurs et de l’utilisateur.<br>
 Elle communiquera directement avec les fichiers php pour afficher les données de la base de données.</p>
 <h2 id="codes">Les Codes</h2>
-<p><strong>Code Capteur DHT11 (Température/Humidité)</strong>: #include "DHT.h"   // Librairie des capteurs DHT
+<p><strong>Code Capteur DHT11 (Température/Humidité)</strong>:
+<pre><code>
+#include "DHT.h"   // Librairie des capteurs DHT
 #define DHTPIN 2   
 
 define DHTTYPE DHT11  
@@ -81,10 +83,12 @@ void loop() {
   Serial.print("Temperature: "); 
   Serial.print(t);
   Serial.print(" *C ");
-}</p>
+}
+</code></pre>
 
 <strong>Code Capteur Photorésistance (Luminosité)</strong>:
 
+<pre><code>
 // Fonction setup(), appelée au démarrage de la carte Arduino
 void setup() {
 
@@ -102,18 +106,19 @@ void loop() {
   Serial.println(valeur);
   delay(250);
 }
+</code></pre>
 
 <strong>Code Wi-Fi Raspberry </strong>:
 
 En ligne de commandes :
 
 // Mise à jour de la carte raspberry si nécessaire, pour supporter le WI-FI
-sudo apt update
-sudo apt dist-upgrade
+> sudo apt update
+> sudo apt dist-upgrade
 
 
 // Il faut éditer le fichier wpa_supplicant.conf
-sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+> sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 
 // "nomDeLabox" = SSID de la box
 // "cléDeSécurité" = mdp de la box
@@ -125,7 +130,7 @@ network={
 }
 
 // Redémarrer le WI-FI de la Raspberry
-ifconfig wlan0
+> ifconfig wlan0
 
 </p>
 
